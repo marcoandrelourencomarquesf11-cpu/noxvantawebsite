@@ -1,0 +1,1 @@
+const nextConfig = { poweredByHeader: false };\nexport default nextConfig;\n
