@@ -1,0 +1,3 @@
+import type {Metadata} from 'next';import './globals.css';import {Header,Footer} from '@/components/Site';
+export const metadata:Metadata={metadataBase:new URL('https://noxvanta.vercel.app'),title:{default:'NOXVANTA — Compete Without Limits',template:'%s | NOXVANTA'},description:'Official NOXVANTA esports team website and VALORANT tactical workspace.',openGraph:{title:'NOXVANTA',description:'Compete without limits.',url:'https://noxvanta.vercel.app',siteName:'NOXVANTA',type:'website'},robots:{index:true,follow:true}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><Header/><main>{children}</main><Footer/></body></html>}

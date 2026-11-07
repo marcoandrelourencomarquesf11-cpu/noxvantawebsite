@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';export default function sitemap():MetadataRoute.Sitemap{return ['','/team','/tactical-hub','/strategy-builder','/stats','/matches','/news','/join','/profile','/legal/privacy','/legal/terms'].map(p=>({url:`https://noxvanta.vercel.app${p}`,lastModified:new Date()}))}
